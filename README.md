@@ -13,8 +13,3 @@ This web application provides gold and silver real-time prices in different curr
 - **Multi-Currency Support:** Get metal prices in different currencies to cater to a global audience.
   
 
-## Getting Started
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/live-metal-prices.git
