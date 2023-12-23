@@ -81,17 +81,6 @@ function App() {
                     </Form.Group>
                   </> : null
                 }
-                {
-                  metalType==="PL" ?
-                  <>
-                    <Form.Group className='carat'>
-                      <Form.Label htmlFor="carat">Carat*</Form.Label>
-                      <Form.Select size='lg' name="carat" id="carat">
-                        <option value="">Platinum</option>
-                      </Form.Select>
-                    </Form.Group>
-                  </> : null
-                }
                 <div className="input-container">
                   <div className='price'>{val}/g</div>
                   <button className="button" type='submit'>Check Price</button>
