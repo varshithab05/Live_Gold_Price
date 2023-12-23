@@ -13,3 +13,4 @@ This web application provides gold and silver real-time prices in different curr
 - **Multi-Currency Support:** Get metal prices in different currencies to cater to a global audience.
   
 
+visit the website :https://main--unique-mandazi-c7bff0.netlify.app/
