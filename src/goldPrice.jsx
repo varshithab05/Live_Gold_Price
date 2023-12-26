@@ -2,6 +2,8 @@ import axios from 'axios';
 
 export var context = 0;
 export default function calculatePrice(formData){
+    if(formData.metal == "PL")
+        formData.carat = "";
     axios({
         method: "GET",
         headers:{
