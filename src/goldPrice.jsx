@@ -7,7 +7,7 @@ export default function calculatePrice(formData){
     axios({
         method: "GET",
         headers:{
-            'X-RapidAPI-Key': 'c03f8dea6bmshd5f9ee467d29283p1f4436jsn566bef7ddb84',
+            'X-RapidAPI-Key': '0504feffd1msh0eb0e3104697e1ap1372f7jsnf643aeb93cf7',
             'X-RapidAPI-Host': 'live-metal-prices.p.rapidapi.com'
         },
         url: `https://live-metal-prices.p.rapidapi.com/v1/latest/${formData.metal}${formData.carat}/${formData.currency}/GRAM` ,
